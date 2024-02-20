@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>DentyTech</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto";
+        }
+
+        .vcenter {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+        }
+
+        img {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #img1 {
+            transform: translate(-50%, -50%) rotate(-10deg);
+        }
+
+        #img2 {
+            transform: translate(-50%, -50%) rotate(-30deg);
+        }
+
+        #img3 {
+            transform: translate(-50%, -50%) rotate(-20deg);
+        }
+
+        #img4 {
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="flex justify-between items-center mx-10 my-6">
+        <div class="nav-part1 flex">
+            <h3 class=" border rounded-3xl border-black  px-3 py-1  font-medium text-base">Menu</h3>
+            <i class="ri-menu-3-line ml-2 border rounded-3xl border-black  px-3 py-1"></i>
+        </div>
+        <div class="nav-part2">
+            <h1 class="font-mono uppercase text-3xl">Dentytech</h1>
+        </div>
+        <div class="nav-part3">
+            <button class=" border rounded-3xl border-black  px-3 py-1 font-medium ">Log in</button>
+            <button class=" border rounded-3xl border-black  px-3 py-1 font-medium  bg-red-500 text-white ">Sign up
+            </button>
+        </div>
+    </nav>
+    <h1 class="uppercase text-[170px] vcenter font-bold">Our Advantages</h1>
+
+    <img id="img1" src="four.jpeg"
+        class="h-[430px] w-[370] object-cover absolute rounded-xl " alt="">
+    <img id="img2" src="three.jpeg"
+        class="h-[430px] w-[370] object-cover absolute rounded-xl " alt="">
+    <img id="img3" src="two.jpeg"
+        class="h-[430px] w-[370] object-cover absolute rounded-xl " alt="">
+    <img id="img4" src="one.jpeg"
+        class="h-[430px] w-[370] object-cover absolute rounded-xl " alt="">
+    <div class="absolute bottom-5 left-5 ">
+        <p>
+        <ul class="text-red-500 text-5xl">.</ul>
+        </p>
+        <h4 class="font-bold text-sm">Your Smile, Our passion</h4>
+    </div>
+    <div class="absolute bottom-5 right-5 ">
+        <div class="flex justify-between ml-4">
+            <img src="instagram.svg" width="20px" alt="">
+            <img src="youtube.svg" width="20px" alt="">
+            <img src="facebook.svg" width="20px" alt="">
+        </div>
+            <p class="font-bold text-sm">Best SignUp of 2024</p>
+        </div>
+
+</body>
+
+</html>
